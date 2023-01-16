@@ -31,7 +31,7 @@ set(CMAKE_RELWITHDEBINFO_POSTFIX   reldbg)
 add_subdirectory(tcp_pubsub)
 
 # Recycle dependency. It's header only and not in the API, so we add it with EXCLUDE_FOR_ALL, so it won't be installed
-add_subdirectory(thirdparty/recycle EXCLUDE_FROM_ALL)
+# add_subdirectory(thirdparty/recycle EXCLUDE_FROM_ALL)
 
 # Generic samples
 if (TCP_PUBSUB_BUILD_SAMPLES)
