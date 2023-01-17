@@ -117,7 +117,7 @@ create_source_tree(${includes} ${sources})
 ### Installation rules
 ################################################################################
 
-set(TCP_PUBSUB_INSTALL_CMAKE_DIR "lib/cmake/tcp_pubsub")
+set(TCP_PUBSUB_INSTALL_CMAKE_DIR "lib64/cmake/tcp_pubsub")
 
 # Install Runtime & Libs
 install(
